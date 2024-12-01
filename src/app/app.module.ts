@@ -11,6 +11,8 @@ import { Day21Component } from './components/day-2-1/day-2-1.component';
 import { Day22Component } from './components/day-2-2/day-2-2.component';
 import { Day31Component } from './components/day-3-1/day-3-1.component';
 import { Day32Component } from './components/day-3-2/day-3-2.component';
+import { Day41Component } from './components/day-4-1/day-4-1.component';
+import { Day42Component } from './components/day-4-2/day-4-2.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +24,11 @@ import { Day32Component } from './components/day-3-2/day-3-2.component';
     Day22Component,
     Day31Component,
     Day32Component,
+    Day41Component,
+    Day42Component,
   ],
-  imports: [
-    BrowserModule,
-    CommonModule,
-    HttpClientModule
-  ],
+  imports: [BrowserModule, CommonModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

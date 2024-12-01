@@ -32,7 +32,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/scripts/md5-util.js"
+            ]
           },
           "configurations": {
             "production": {
